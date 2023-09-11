@@ -32,9 +32,10 @@ export const LogoContainer = styled.div
 `
 
 export const SlideImage = styled.img
-`
+`   
     max-width: 100%;
     border-radius: 16px;
+    object-fit: scale-down;
 `
 
 export const CardContainer = styled.div

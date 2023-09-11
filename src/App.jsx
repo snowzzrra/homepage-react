@@ -21,8 +21,8 @@ import BillPayment from "./components/BillPayment"
 
 // AS VARIAÇÕES DO SITE SÃO DEPENDENTES DO JSON ABAIXO
 // COMENTE O JSON QUE NÃO DESEJA UTILIZAR E DESCOMENTE O QUE DESEJA USAR
-//import data from "./data/data-1.json"
-import data from "./data/data-2.json"
+import data from "./data/data-1.json"
+//import data from "./data/data-2.json"
 // import data from "./data/data-3.json"
 
 function App() {
@@ -46,11 +46,10 @@ function App() {
             <FontAwesomeIcon icon={faCog} style={{color: "#ffffff",}} size="xl" />
           </LogoContainer>
           
-          <Swiper style={{width: "342px", height: "156px", zIndex: 0}}
+          <Swiper style={{width: "90vw", height:"156px", zIndex: 0}}
             modules={[Pagination]}
             pagination={true}
             slidesPerView={1}
-            setWrapperSize={true}
             spaceBetween={50}
           >
             <SwiperSlide><SlideImage src={img1}/></SwiperSlide>
